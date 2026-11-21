@@ -52,6 +52,17 @@ Curated Claude Code plugins & skills. Run `./install.sh` to clone them all into 
 | ADHD | [UditAkhourii/adhd](https://github.com/UditAkhourii/adhd) | Explores many ideas at once |
 | Marketing Skills | [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) | Marketing playbooks |
 
+## Other plugins worth installing separately
+
+| Skill | Repo | What it does |
+|---|---|---|
+| CLI-Anything | [HKUDS/CLI-Anything](https://github.com/HKUDS/CLI-Anything) | Makes any CLI tool agent-native |
+
+```
+/plugin marketplace add HKUDS/CLI-Anything
+/plugin install cli-anything
+```
+
 ## Install in Claude Code
 
 ```
