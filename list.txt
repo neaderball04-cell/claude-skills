@@ -1,0 +1,25 @@
+Code|Matt Pocock skills|mattpocock/skills|Real engineer habits
+Code|Everything Claude Code (ECC)|affaan-m/everything-claude-code|Full agent/skill/command toolkit
+Code|Karpathy skills|forrestchang/andrej-karpathy-skills|Karpathy-style coding guidelines
+Code|Ponytail|DietrichGebert/ponytail|Writes less, smarter code
+Code|Agent Skills|addyosmani/agent-skills|Production engineering skills
+Research|Graphify|safishamsi/graphify|Turns a codebase/docs into a knowledge graph
+Research|Agent Reach|Panniantong/Agent-Reach|Reads X, Reddit & YouTube
+Research|Understand Anything|Lum1104/Understand-Anything|Explains big codebases
+Research|Last 30 Days|mvanhorn/last30days-skill|Recent-trend research
+Research|Career-Ops|santifer/career-ops|Finds & scores jobs
+Tokens|GStack|garrytan/gstack|Opinionated workflow stack
+Tokens|Caveman|JuliusBrussee/caveman|Talks short, ~65% fewer tokens
+Tokens|Claude-Mem|thedotmack/claude-mem|Persistent memory across sessions
+Tokens|Headroom|chopratejas/headroom|Context compression
+Tokens|GSD|gsd-build/get-shit-done|Spec-driven dev system
+Tokens|BMAD Method|bmad-code-org/BMAD-METHOD|Agile team of AI agents
+Design|UI UX Pro Max|nextlevelbuilder/ui-ux-pro-max-skill|Pro-level UI design brain
+Design|Taste|Leonxlnx/taste-skill|Better design taste
+Design|Impeccable|pbakaus/impeccable|Catches AI slop in design
+Writing & Video|Skills by Anthropic|anthropics/skills|Official skills (docx, pptx, etc.)
+Writing & Video|OpenMontage|OpenMontageInc/OpenMontage|AI video studio
+Writing & Video|Hyperframes|heygen-com/hyperframes|HTML-to-video
+Writing & Video|Humanizer|blader/humanizer|Removes AI-writing tells
+Writing & Video|ADHD|UditAkhourii/adhd|Explores many ideas at once
+Writing & Video|Marketing Skills|coreyhaines31/marketingskills|Marketing playbooks
