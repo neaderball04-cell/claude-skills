@@ -1,0 +1,36 @@
+{
+  "name": "bens-skills",
+  "owner": {
+    "name": "Ben Ball"
+  },
+  "metadata": {
+    "description": "Curated skills collection"
+  },
+  "plugins": [
+    {
+      "name": "bens-skills",
+      "source": "./",
+      "description": "17 curated skills: coding, design, writing, marketing, research",
+      "strict": false,
+      "skills": [
+        "./adhd",
+        "./caveman",
+        "./code-review",
+        "./code-simplification",
+        "./copywriting",
+        "./design-taste-frontend",
+        "./diagnosing-bugs",
+        "./humanizer",
+        "./impeccable",
+        "./karpathy-guidelines",
+        "./last30days",
+        "./marketing-ideas",
+        "./ponytail",
+        "./security-and-hardening",
+        "./spec-driven-development",
+        "./tdd",
+        "./ui-ux-pro-max"
+      ]
+    }
+  ]
+}

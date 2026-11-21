@@ -51,3 +51,10 @@ Curated Claude Code plugins & skills. Run `./install.sh` to clone them all into 
 | Humanizer | [blader/humanizer](https://github.com/blader/humanizer) | Removes AI-writing tells |
 | ADHD | [UditAkhourii/adhd](https://github.com/UditAkhourii/adhd) | Explores many ideas at once |
 | Marketing Skills | [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) | Marketing playbooks |
+
+## Install in Claude Code
+
+```
+/plugin marketplace add neaderball04-cell/claude-skills
+/plugin install bens-skills@bens-skills
+```
