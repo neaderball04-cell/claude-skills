@@ -1,0 +1,206 @@
+{
+ "voices": {
+  "n": {
+   "voice": "af_bella",
+   "speed": 1.06
+  },
+  "c": {
+   "voice": "am_michael",
+   "speed": 1.0
+  },
+  "f": {
+   "voice": "am_adam",
+   "speed": 1.0
+  }
+ },
+ "scenes": [
+  {
+   "id": "s01",
+   "lead": 3.2,
+   "tail": 0.7,
+   "lines": [
+    [
+     "n1",
+     "n",
+     "Hey CHAOS Troop! Welcome back to the commander's class. Today: the T2C2, with a focus on the T2C2 Lite. The satellite terminal that looks like a giant beach ball and puts a command post on the network from almost anywhere. Let's go!",
+     0
+    ]
+   ]
+  },
+  {
+   "id": "s02",
+   "lead": 0.4,
+   "tail": 0.7,
+   "lines": [
+    [
+     "n2",
+     "n",
+     "T2C2 stands for Transportable Tactical Command Communications. It gives you beyond line of sight satellite voice, video, and data, at the halt, so early entry units and command posts can reach the network with no infrastructure on the ground.",
+     0
+    ],
+    [
+     "n3",
+     "n",
+     "The trick is the antenna. It's inflatable. Think camping tent instead of a house: it packs small, then blows up into a big dish. A bigger dish means more bandwidth from a smaller package.",
+     0.3
+    ]
+   ]
+  },
+  {
+   "id": "s03",
+   "lead": 0.4,
+   "tail": 0.7,
+   "lines": [
+    [
+     "n4",
+     "n",
+     "There are two versions. The Lite, the AN T S C two thirty-two, has a one point two meter antenna. A two-person team can carry it and set it up in about twenty-five minutes. The Heavy has a two point four meter antenna, is tri-band capable, and takes about thirty-five minutes. Think carry-on bag versus checked luggage.",
+     0
+    ]
+   ]
+  },
+  {
+   "id": "s04",
+   "lead": 0.4,
+   "tail": 0.7,
+   "lines": [
+    [
+     "n5",
+     "n",
+     "Here's what's in the Lite. Pointing components: the compass, the stage, and the inclinometer. The one point two meter antenna and its feed assembly with the BUC, LNB, and OMT. Power: the CUPS and sealed power supply. Anchor plates, the CIU that inflates it, and the networking case with the router modules.",
+     0
+    ]
+   ]
+  },
+  {
+   "id": "s05",
+   "lead": 0.4,
+   "tail": 0.7,
+   "lines": [
+    [
+     "n6",
+     "n",
+     "Step one: pick the site. You need a clear look angle to the satellite, level ground, no electrical interference, and no metal objects nearby. Clear a five by five foot spot for the stage, within twenty-five feet of the network equipment. Real life: it's like a home satellite TV dish. Trees in the way, no picture.",
+     0
+    ]
+   ]
+  },
+  {
+   "id": "s06",
+   "lead": 0.4,
+   "tail": 0.7,
+   "lines": [
+    [
+     "n7",
+     "n",
+     "Step two: point and anchor. Your satellite access authorization gives the magnetic azimuth. Set it on the compass, then turn the stage until its satellite arrow points down that azimuth. Recheck. Attach the anchor plates and add ballast for the wind: thirty pounds per plate at ten miles an hour, up to one hundred twenty at forty. Forty is the limit.",
+     0
+    ]
+   ]
+  },
+  {
+   "id": "s07",
+   "lead": 0.4,
+   "tail": 0.7,
+   "lines": [
+    [
+     "n8",
+     "n",
+     "Step three: power and inflate. On shore power, it goes GFCI, then the two-forty watt supply, then the CUPS, then the split cable to the CIU. The CIU powers up and starts inflating. Wait for the pressure LED and the differential LED to go green. Center the antenna on the black line and take the slack out of the hold-down cables. Like a bouncy castle at a birthday party: never leave it unattended while it inflates.",
+     0
+    ]
+   ]
+  },
+  {
+   "id": "s08",
+   "lead": 0.4,
+   "tail": 0.7,
+   "lines": [
+    [
+     "n9",
+     "n",
+     "Step four: the feed. Match the color stripes and attach the legs. Transmit cable to the BUC, receive cable to the LNB. White-labeled legs go in the upper points, red-labeled legs in the lower points.",
+     0
+    ]
+   ]
+  },
+  {
+   "id": "s09",
+   "lead": 0.4,
+   "tail": 0.7,
+   "lines": [
+    [
+     "n10",
+     "n",
+     "Step five: DCIU and modem. Before you connect anything, set the DC injection and ten megahertz knobs to off. Cable the BUC, LNB, and modem, apply twenty-four volts, and look for a green status light. Then set ten megahertz to BUC and LNB, and DC injection to LNB. Install the star ground kit. Ground it every time.",
+     0
+    ]
+   ]
+  },
+  {
+   "id": "s10",
+   "lead": 0.4,
+   "tail": 0.7,
+   "lines": [
+    [
+     "n11",
+     "n",
+     "Step six: bring up the network. Twist the router modules together at a forty degree angle until they're flush. Two PRC one forty-eight batteries go on the right side. Mount the KG two-fifty X S on top and power it. Then join the network with the settings in your satellite access authorization.",
+     0
+    ]
+   ]
+  },
+  {
+   "id": "s11",
+   "lead": 0.4,
+   "tail": 0.7,
+   "lines": [
+    [
+     "n12",
+     "n",
+     "Here's the signal path. Your traffic leaves the modem, goes through the DCIU to the BUC, which converts it and shoots it up to the satellite. Coming down, the LNB catches it and sends it back through the DCIU to the modem. If something's wrong, a spectrum analyzer on the beacon tells you whether you're even pointed right.",
+     0
+    ]
+   ]
+  },
+  {
+   "id": "s12",
+   "lead": 0.4,
+   "tail": 0.7,
+   "lines": [
+    [
+     "n13",
+     "n",
+     "The usual mistakes: wrong azimuth from a sloppy compass read. Too little ballast for the wind. Locking the cable locks before inflation. Connecting cables with the DCIU knobs still on. A truck parked next to the dish. And no ground. Every one of those costs you the link.",
+     0
+    ]
+   ]
+  },
+  {
+   "id": "s13",
+   "lead": 0.4,
+   "tail": 0.7,
+   "lines": [
+    [
+     "n14",
+     "n",
+     "Here's how it hits CHAOS. When the terrestrial network can't reach, the T2C2 Lite is your beyond line of sight path. Put it in the PACE plan. Train crews until two Soldiers can have it on the air in twenty-five minutes, day or night. And the QRG and the TM stay with the system.",
+     0
+    ]
+   ]
+  },
+  {
+   "id": "s14",
+   "lead": 0.4,
+   "tail": 0.7,
+   "lines": [
+    [
+     "n15",
+     "n",
+     "Point it. Pump it. Plug it in. That's CHAOS!",
+     0
+    ]
+   ]
+  }
+ ]
+}

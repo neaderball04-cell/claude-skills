@@ -1,0 +1,40 @@
+
+@font-face{font-family:Slab;src:url(alfa-slab-one-latin-400-normal.woff2)}
+@font-face{font-family:B;font-weight:400;src:url(barlow-latin-400-normal.woff2)}
+@font-face{font-family:B;font-weight:600;src:url(barlow-latin-600-normal.woff2)}
+@font-face{font-family:C;font-weight:700;src:url(barlow-semi-condensed-latin-700-normal.woff2)}
+@page{size:letter;margin:0}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:B;color:#e6e0d4;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+.pg{width:8.5in;height:11in;background:#c4572f;padding:.18in;page-break-after:always;overflow:hidden;position:relative}
+.in{background:#1c1c1f;border-radius:16px;height:100%;padding:.42in .5in .5in;position:relative;display:flex;flex-direction:column}
+.hd{border-bottom:5px solid #b23a2a;padding-bottom:8px;margin-bottom:14px;display:flex;align-items:flex-end;justify-content:space-between}
+.hd .k{font-family:C;color:#d9b25a;font-size:10.5pt;letter-spacing:.06em}
+.hd h1{font-family:Slab;font-weight:400;color:#e3963e;font-size:27pt;line-height:1.02}
+.hd .r{font-family:C;color:#9d968a;font-size:9pt;text-align:right}
+h2{font-family:Slab;font-weight:400;color:#e3963e;font-size:14.5pt;margin:12px 0 6px}
+h3{font-family:C;font-weight:700;font-size:12.5pt;color:#f1ebdf;margin-bottom:3px}
+p,li{font-size:10.8pt;line-height:1.45}
+.lead{font-size:12pt;line-height:1.45;color:#f1ebdf;margin-bottom:6px}
+.g3{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}.g2{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.cd{background:#242427;border:1.5px solid #b8893a;border-radius:6px;padding:10px 12px}
+.cd.t{border-top:7px solid var(--c,#e3963e)}
+.ex{margin-top:6px;font-size:10pt;line-height:1.35;color:#d9b25a}.ex b{font-family:C;color:#d9b25a}
+.sig{margin-top:6px;font-size:10pt;line-height:1.35;border-left:4px solid #5fd07a;padding-left:8px}.sig b{font-family:C;color:#5fd07a}
+table{width:100%;border-collapse:collapse;font-size:10.2pt}
+th{font-family:C;text-align:left;color:#1b1d20;background:#e3963e;padding:5px 8px;font-size:10pt}
+td{padding:6px 8px;border-bottom:1px solid #3a3a3e;vertical-align:top;line-height:1.35}
+td:first-child{font-family:C;color:#e3963e;white-space:nowrap}
+ul.ck{list-style:none}ul.ck li{padding-left:20px;position:relative;margin:2px 0}ul.ck li:before{content:"";position:absolute;left:2px;top:4px;width:10px;height:10px;border:1.6px solid #e3963e;border-radius:2px}
+ul.x li:before{content:"✕";border:0;color:#ff6a5c;top:0;font-family:C}
+.bar{height:6px;background:#b23a2a;margin:10px 0}
+.ph{border:3px solid #b8893a;width:100%;object-fit:cover;display:block}
+.cap{font-family:C;font-size:8.5pt;color:#9d968a;margin-top:3px}
+.ft{position:absolute;left:.5in;right:.5in;bottom:.2in;display:flex;justify-content:space-between;font-family:C;font-size:8.5pt;color:#7d776c}
+.warn{background:#b23a2a;color:#fff;border-radius:6px;padding:8px 12px;font-size:10.4pt}
+.warn b{font-family:C}
+.paper{background:#f4f0e6;color:#1b1d20;border-radius:3px;padding:12px 14px;box-shadow:0 8px 0 rgba(0,0,0,.35)}
+.paper .f{font-family:C;font-size:8.5pt;color:#6a645a;letter-spacing:.03em}
+.paper .v{font-size:10pt;line-height:1.35;margin-bottom:6px;border-bottom:1px solid #cfc8b8;padding-bottom:5px}
+.paper .v i{font-style:normal;font-family:"Segoe Script",cursive;color:#1f3f8f}
+.num{font-family:Slab;color:#e3963e;font-size:28pt;line-height:1}
